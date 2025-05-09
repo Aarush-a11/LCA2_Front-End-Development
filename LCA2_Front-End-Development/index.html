@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarush Madaan Portfolio | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"> Personal Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+            <div class="burger"> 
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Aarush Madaan</span></h1>
+                <h2>UI/UX Designer</h2>
+                <p>Hi I’m Aarush Madaan and I am passionate
+                    about everything that has to do with Digital 
+                    Design  and Art Direction. I enjoy working 
+                    with enthusiastic people who want to solve
+                    problems through beautiful designs 
+                    and experiences.</p>
+                <a href="portfolio.html" class="btn">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="profile picture.jpg" alt="Profile placeholder" loading="lazy">
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="html">
+                    <div class="skill-icon">HTML</div>
+                    <div class="skill-bar"><span style="width: 90%"></span></div>
+                </div>
+                <div class="skill-card" data-skill="css">
+                    <div class="skill-icon">CSS</div>
+                    <div class="skill-bar"><span style="width: 85%"></span></div>
+                </div>
+                <div class="skill-card" data-skill="js">
+                    <div class="skill-icon">JS</div>
+                    <div class="skill-bar"><span style="width: 75%"></span></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Aarush Madaan | All rights reserved.</p>
+    </footer>
+
+    <script src="jsmain.js"></script>
+    <script src="jshome.js"></script>
+</body>
+</html>

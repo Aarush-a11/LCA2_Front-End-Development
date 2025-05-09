@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarush Madaan Portfolio | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Personal Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portfolio-header">
+            <h1>My <span class="highlight">Work</span></h1>
+            <p>Here are some of my recent projects. Click on any to learn more.</p>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">Apps</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+        </section>
+
+        <section class="portfolio-grid">
+            <div class="portfolio-item" data-category="web">
+                <img src="e commerce .png" alt="Project 1" loading="lazy">
+                <div class="portfolio-overlay">
+                    <h3>E-commerce Website</h3>
+                    <p>Designed in Figma</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="app">
+                <img src="IIT WEBSITE REDESIGN.png" alt="Project 2" loading="lazy">
+                <div class="portfolio-overlay">
+                    <h3>IIT delhi website redesign</h3>
+                    <p>Designed in Figma</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="design">
+                <img src="Alogo.png" alt="Project 3" loading="lazy">
+                <div class="portfolio-overlay">
+                    <h3>Brand Identity</h3>
+                    <p>Logo and branding design</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="web">
+                <img src="portfoliowebsite.jpg" alt="Project 4" loading="lazy">
+                <div class="portfolio-overlay">
+                    <h3>Portfolio Website</h3>
+                    <p>Designed in Figma</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Aarush Madaan | All rights reserved.</p>
+    </footer>
+
+    <script src="jsmain.js"></script>
+    <script src="jsportfolio.js"></script>
+</body>
+</html>
